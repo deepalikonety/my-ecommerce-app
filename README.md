@@ -1,40 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🛍️ My E-Commerce App
 
-## Getting Started
+A sleek, responsive e-commerce platform built with **Next.js**, **TypeScript**, and **Tailwind CSS**, using the **FakeStore API**. This project includes a complete product catalog, dynamic cart system, image editing, and user reviews.
 
-First, run the development server:
+🔗 **Live Demo**: [my-ecommerce-app.vercel.app](https://my-ecommerce-app-two-sooty.vercel.app)
+
+---
+
+## 🚀 Features
+
+- ✅ Curated Hero Section
+- ✅ Product Catalog with Category Filters (Apparel, Accessories, Digital)
+- ✅ Search Functionality
+- ✅ Floating "Add to Cart" Button
+- ✅ Cart Page with Quantity Management (`localStorage`)
+- ✅ Product Detail Page  
+  • Image editor (Pixo)  
+  • Sticky title/description  
+- ✅ Related Product Suggestions
+- ✅ Reviews Section (Anonymous or Named)
+- ✅ Fully Responsive
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ Next.js 14
+- ⌨️ TypeScript
+- 💨 Tailwind CSS
+- 🛒 FakeStore API
+- 🧠 localStorage for cart
+- ✏️ Pixo Editor (client-side image editing)
+- 🎯 Lucide Icons
+
+---
+
+## 📦 Getting Started
 
 ```bash
+git clone https://github.com/yourusername/my-ecommerce-app.git
+cd my-ecommerce-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000 to explore the app locally.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Build & Deploy
+To create a production build:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+bash
+Copy
+Edit
+npm run build
+npm start
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Deployed on Vercel:
+👉 https://my-ecommerce-app-two-sooty.vercel.app
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📁 Folder Structure
+cpp
+Copy
+Edit
+src/
+├── components/       // Shared components (Header, ProductCard, etc.)
+├── context/          // Cart context for global state
+├── pages/            // Routes: index, product/[id], cart
+├── public/           // Static assets
+└── styles/           // Tailwind and global styles
 
-## Learn More
+💡 Potential Improvements
+🧾 Backend for review persistence
 
-To learn more about Next.js, take a look at the following resources:
+🛍️ Payment gateway integration (e.g. Stripe)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+🌒 Dark mode toggle
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔐 Authentication system
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+👨‍💻 Author
+Made with ❤️ by Your K Deepali
