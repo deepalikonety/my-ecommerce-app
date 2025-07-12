@@ -37,6 +37,8 @@ A sleek, responsive e-commerce platform built with **Next.js**, **TypeScript**, 
 ## 📦 Getting Started
 
 ```bash
+
+```
 git clone https://github.com/yourusername/my-ecommerce-app.git
 cd my-ecommerce-app
 npm install
@@ -44,18 +46,20 @@ npm run dev
 
 Visit http://localhost:3000 to explore the app locally.
 
+---
+
 Build & Deploy
 To create a production build:
 
-bash
-Copy
-Edit
+```
 npm run build
 npm start
 
 Deployed on Vercel:
 👉 https://my-ecommerce-app-two-sooty.vercel.app
+```bsh
 
+```
 📁 Folder Structure
 cpp
 Copy
@@ -66,6 +70,7 @@ src/
 ├── pages/            // Routes: index, product/[id], cart
 ├── public/           // Static assets
 └── styles/           // Tailwind and global styles
+````
 
 💡 Potential Improvements
 🧾 Backend for review persistence
